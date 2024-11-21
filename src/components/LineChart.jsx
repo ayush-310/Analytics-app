@@ -4,7 +4,7 @@ import React from 'react'
 
 const LineChart = ({ data, selectedFeature, gender }) => (
     <div style={{ width: "500px", height: "500px" }}>
-        <h2 className="text-xl font-semibold mb-2">Time Trend for Feature {selectedFeature} ({gender})</h2>
+        <h2 className="text-xl text-center font-semibold mb-2 mt-10 md:mt-0">Time Trend for Feature {selectedFeature} ({gender})</h2>
         <Line
             data={data}
             options={{

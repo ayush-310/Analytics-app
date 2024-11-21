@@ -12,7 +12,7 @@ const FilterControls = ({
     endDate,
     setEndDate
 }) => (
-    <div className="filter-container">
+    <div className="filter-container mt-14 sm:mt-0">
         <h2 className="filter-title">Filters</h2>
         <div className="filter-controls">
             <div className='dd'>

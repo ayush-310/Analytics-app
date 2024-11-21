@@ -23,7 +23,7 @@ function Home() {
                 </div>
             </nav>
             <div className="max-w-7xl mx-auto p-6">
-                <div className="bg-white rounded-lg shadow-md p-6">
+                <div className="bg-white rounded-lg shadow-md p-4">
                     <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
                     <DataDisplay />
                 </div>

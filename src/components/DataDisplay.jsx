@@ -75,7 +75,7 @@ const AnalyticsDashboard = () => {
     };
 
     return (
-        <div className="pg">
+        <div className="">
             <div className='both'>
                 <div className='charts'>
                     <BarChart data={barChartData} onFeatureClick={handleFeatureClick} gender={genderFilter} />
